@@ -1,5 +1,8 @@
 ## function #load
 
+# initialise the items
+function stoneage:items
+
 #scoreboard
 scoreboard objectives add stoneage.temp dummy
 

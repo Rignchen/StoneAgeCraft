@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "a":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "stoneage:plank_master/oak"
+            }
+        }
+    },
+    "rewards": {
+        "function": "stoneage:crafts/plank_master/oak"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "a":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "stoneage:primitive_crafting_table/oak"
+            }
+        }
+    },
+    "rewards": {
+        "function": "stoneage:crafts/primitive_crafting_table/oak"
+    }
+}

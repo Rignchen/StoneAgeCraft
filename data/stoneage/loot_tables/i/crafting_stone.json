@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "barrel",
+                    "functions": [
+                        {
+                            "function": "copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "merge",
+                                    "source": "data.crafting_stone.tag",
+                                    "target": "{}"
+                                }
+                            ],
+                            "source": {
+                                "type": "storage",
+                                "source": "stoneage:items"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
