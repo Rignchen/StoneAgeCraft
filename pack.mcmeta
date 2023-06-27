@@ -1,0 +1,21 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": "StoneAgeCraft by Rignchen"
+    },
+    "filter": {
+        "block": [
+            {"namespace": "minecraft", "path": "recipes/oak_planks"},
+            {"namespace": "minecraft", "path": "recipes/spruce_planks"},
+            {"namespace": "minecraft", "path": "recipes/birch_planks"},
+            {"namespace": "minecraft", "path": "recipes/jungle_planks"},
+            {"namespace": "minecraft", "path": "recipes/acacia_planks"},
+            {"namespace": "minecraft", "path": "recipes/dark_oak_planks"},
+            {"namespace": "minecraft", "path": "recipes/mangrove_planks"},
+            {"namespace": "minecraft", "path": "recipes/crimson_planks"},
+            {"namespace": "minecraft", "path": "recipes/warped_planks"},
+            {"namespace": "minecraft", "path": "recipes/crafting_table"},
+            {"namespace": "minecraft", "path": "recipes/sticks"}
+        ]
+    }
+}
