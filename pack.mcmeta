@@ -14,6 +14,8 @@
             {"namespace": "minecraft", "path": "recipes/mangrove_planks"},
             {"namespace": "minecraft", "path": "recipes/crimson_planks"},
             {"namespace": "minecraft", "path": "recipes/warped_planks"},
+            {"namespace": "minecraft", "path": "recipes/cherry_planks"},
+            {"namespace": "minecraft", "path": "recipes/bamboo_planks"},
             {"namespace": "minecraft", "path": "recipes/crafting_table"},
             {"namespace": "minecraft", "path": "recipes/sticks"}
         ]

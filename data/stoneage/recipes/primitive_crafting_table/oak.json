@@ -7,7 +7,10 @@
     "key": {
         "L": {
             "tag": "minecraft:oak_logs"
-        }
+        },
+		"S": {
+			"item": "minecraft:stick"
+		}
     },
     "result": {
         "item": "minecraft:knowledge_book"
