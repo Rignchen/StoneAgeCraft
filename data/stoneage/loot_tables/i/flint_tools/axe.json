@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wooden_axe",
+                    "functions": [
+                        {
+                            "function": "copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "merge",
+                                    "source": "data.flint_tools.axe.tag",
+                                    "target": "{}"
+                                }
+                            ],
+                            "source": {
+                                "type": "storage",
+                                "source": "stoneage:items"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shaped",
+	"key": {
+		"S": {
+			"tag": "stoneage:glue"
+		},
+		"F": {
+			"item": "flint"
+		},
+		"/": {
+			"item": "stick"
+		}
+	},
+	"pattern": [
+		"SF",
+		"/ "
+	],
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

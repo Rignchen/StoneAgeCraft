@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"a": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "stoneage:flint_tools/sword"
+			}
+		}
+	},
+	"rewards": {
+		"function": "stoneage:crafts/flint_tools/sword"
+	}
+}
