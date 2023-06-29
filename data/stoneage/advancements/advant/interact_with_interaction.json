@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"a": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "interaction",
+					"nbt": "{Tags:[\"stoneage\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stoneage:advant/interact_with_interaction/"
+	}
+}

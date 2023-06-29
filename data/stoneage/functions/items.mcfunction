@@ -1,10 +1,10 @@
 ## function stoneage: load
 
 #plank master
-data modify storage stoneage:items data.plank_master.oak set value {id: "minecraft:barrel", Count: 1b, tag: {ctc: {from: "rignchen: stoneage", id: "oak_plank_master", traits: {"crafting": 1b, "blocks": 1b, "wood/oak": 1b}}, display: {Name: '{"text": "Oak Plank Master", "italic": false}', Lore: ['{"text": "stoneage", "color": "blue"}']}, stoneage: {plank_master: 1b, wood_type: 1b}}}
+data modify storage stoneage:items data.plank_master.oak set value {id: "minecraft:barrel", Count: 1b, tag: {ctc: {from: "rignchen: stoneage", id: "oak_plank_master", traits: {"crafting": 1b, "blocks": 1b, "wood/oak": 1b}}, display: {Name: '{"text": "Oak Plank Master", "italic": false}', Lore: ['{"text": "stoneage", "color": "blue"}']}, BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,tag:{smithed: {block: {id: {stoneage: {plank_master: 1b, wood_type: 1b}}}}}}]}}}
 
 #primitive crafting table
-data modify storage stoneage:items data.crafting_table.oak set value {id: "minecraft:barrel", Count: 1b, tag: {ctc: {from: "rignchen: stoneage", id: "oak_primitive_crafting_table", traits: {"crafting": 1b, "blocks": 1b, "wood/oak": 1b}}, display: {Name: '{"text": "Oak Primitive Crafting Table", "italic": false}', Lore: ['{"text": "stoneage", "color": "blue"}']}, stoneage: {crafting_table: 1b, wood_type: 1b}}}
+data modify storage stoneage:items data.crafting_table.oak set value {id: "minecraft:barrel", Count: 1b, tag: {ctc: {from: "rignchen: stoneage", id: "oak_primitive_crafting_table", traits: {"crafting": 1b, "blocks": 1b, "wood/oak": 1b}}, display: {Name: '{"text": "Oak Primitive Crafting Table", "italic": false}', Lore: ['{"text": "stoneage", "color": "blue"}']}, BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,tag:{smithed: {block: {id: {stoneage: {crafting_table: 1b, wood_type: 1b}}}}}}]}}}
 
 #flint tools
 data modify storage stoneage:items data.flint_tools.axe.tag set value {id:    "minecraft:wooden_axe",     Count: 1b, tag: {ctc: {from: "rignchen: stoneage", id: "flint_axe",     traits: {"item": 1b, "flint": 1b, "tool/weapon": 1b, "tool/chopping": 1b}}, display: {Name: '{"text": "Flint Axe", "italic": false}',     Lore: ['{"text": "stoneage", "color": "blue"}']}, stoneage: {flit_tool:1b}}}
