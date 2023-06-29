@@ -6,11 +6,16 @@
         "item": {
           "nbt": "{BlockEntityTag:{Items:[{tag:{smithed:{block:{}}}}]}}"
         },
-        "location": {
-          "block": {
-            "tag": "smithed.custom_block:placeable"
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "smithed.custom_block:placeable"
+              }
+            }
           }
-        },
+        ],
         "player": [
           {
             "condition": "minecraft:value_check",
@@ -34,7 +39,7 @@
               },
               "score": "load.status"
             },
-            "range": 1
+            "range": 2
           },
           {
             "condition": "minecraft:value_check",
@@ -53,6 +58,6 @@
     }
   },
   "rewards": {
-    "function": "smithed.custom_block:v0.1.0/place"
+    "function": "smithed.custom_block:v0.2.0/place"
   }
 }

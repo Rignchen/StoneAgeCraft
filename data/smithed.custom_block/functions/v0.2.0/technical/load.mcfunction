@@ -21,6 +21,6 @@ execute unless block -30000000 0 1602 minecraft:yellow_shulker_box run setblock 
 execute unless block -30000000 0 1603 minecraft:oak_wall_sign run setblock -30000000 0 1603 minecraft:oak_wall_sign[facing=south]
 fill -30000000 1 1600 -30000000 1 1615 minecraft:bedrock
 
-function smithed.custom_block:v0.1.0/technical/def_const
+function smithed.custom_block:v0.2.0/technical/def_const
 
-function smithed.custom_block:v0.1.0/technical/tick
+function smithed.custom_block:v0.2.0/technical/tick
