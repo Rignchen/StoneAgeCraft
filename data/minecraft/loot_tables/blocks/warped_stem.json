@@ -7,7 +7,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:crimson_log"
+                    "name": "minecraft:warped_stem"
                 }
             ],
             "conditions": [
@@ -23,5 +23,5 @@
             ]
         }
     ],
-    "random_sequence": "minecraft:blocks/crimson_log"
+    "random_sequence": "minecraft:blocks/warped_stem"
 }

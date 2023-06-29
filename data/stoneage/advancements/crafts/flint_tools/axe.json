@@ -1,9 +1,9 @@
 {
 	"criteria": {
 		"a": {
-			"trigger": "recipe_unlocked",
+			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe": "stoneage:flint_tools/axe"
+				"recipe_id": "stoneage:flint_tools/axe"
 			}
 		}
 	},

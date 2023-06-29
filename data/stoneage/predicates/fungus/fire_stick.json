@@ -4,10 +4,10 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "nbt": "{stoneage: {fire_stick: 1b}}}"
+                "nbt": "{stoneage:{fire_stick:1b}}"
             },
             "offhand": {
-                "nbt": "{stoneage: {fire_stick: 1b}}}"
+                "nbt": "{stoneage:{fire_stick:1b}}"
             }
         }
     }
