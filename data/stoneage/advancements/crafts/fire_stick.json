@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "a":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "stoneage:fire_stick"
+            }
+        }
+    },
+    "rewards": {
+        "function": "stoneage:crafts/fire_stick"
+    }
+}

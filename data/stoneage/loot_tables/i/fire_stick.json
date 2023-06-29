@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "merge",
+                                    "source": "data.fire_stick.tag",
+                                    "target": "{}"
+                                }
+                            ],
+                            "source": {
+                                "type": "storage",
+                                "source": "stoneage:items"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
