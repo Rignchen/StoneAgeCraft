@@ -1,4 +1,3 @@
-say schedue/4t/fungus/ray/end
 ## function stoneage:schedue/4t/fungus/ray/ray
 
 #if block cause if the head is in a block it shouldn't break the block

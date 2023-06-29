@@ -1,4 +1,3 @@
-say advant/sheep_drop_hit
 ## function stoneage:advant/hit_sheep
 
 scoreboard players set #temp stoneage.temp 0
