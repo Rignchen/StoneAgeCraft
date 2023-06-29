@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "sheep": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "sheep",
+                    "nbt": "{Sheared:0b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "stoneage:advant/hit_sheep"
+    }
+}
